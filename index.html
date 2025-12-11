@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body>
@@ -19,47 +21,51 @@
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="index.html" class="href">Home</a></li>
+                    <li><a href="#home" class="href">Home</a></li>
                     <li><a href="#about" class="href">About</a></li>
                     <li><a href="#projects" class="href">Projects</a></li>
-                    <li><a href="nav/resume.html" class="href">Resume</a></li>
-                    <li><a href="nav/contact.html" class="href">Contact Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1ayqYnIUp5X0zHIvnXtVaC4KpaFkKwc6A/view?usp=sharing" class="href">Resume</a></li>
+                    <li><a href="#contact" class="href">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="heroSection">
+        <section class="heroSection" id="home">
             <div class="leftsection">
                 <div class="greet">Hi! I'm</div>
-
                 <div class="name">
                     <span class="main-title">Swarnim<br>Shrestha</span>
                 </div>
                 <br>
                 <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://drive.google.com/file/d/1ayqYnIUp5X0zHIvnXtVaC4KpaFkKwc6A/view?usp=sharing"class="btn btn-primary" target="_blank">
+                        <i class="fas fa-file-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="https://github.com/sthaswarnim17" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="img/Swarnim.png" alt="">
-
             </div>
-
         </section>
-        <section class="aboutSection">
 
+        <section class="aboutSection">
             <div class="about-content">
                 <h2 id="about">About Me</h2>
                 <div class="aboutdesc">
                     I'm <span class="name">Swarnim Shrestha</span>, a passionate Computer Engineering student at Khwopa
                     College of Engineering. My journey combines technology with creativity, allowing me to explore the
                     intersection of innovation and design.
-                    <br>
-                    <br>
+                    <br><br>
                     I love front-end development, UI/UX design, and creative media production including video editing
                     and graphic design. The process of bringing ideas to life through visual storytelling fascinates me.
-                    <br>
-                    <br>
-
+                    <br><br>
                     As someone who is creative, curious, and collaborative, I thrive in environments where I can work
                     with others to solve problems and create meaningful experiences through technology and design.
                 </div>
@@ -69,9 +75,7 @@
 
             <div class="qualification-box">
                 <h2>Qualifications</h2>
-
                 <div class="qualification-list">
-
                     <div class="qualification-item">
                         <h3>Bachelor's in Computer Engineering</h3>
                         <div class="details">
@@ -79,7 +83,6 @@
                             <span class="duration">2024 - Present</span>
                         </div>
                     </div>
-
                     <div class="qualification-item">
                         <h3>High School</h3>
                         <div class="details">
@@ -87,57 +90,117 @@
                             <span class="duration">2021 - 2023</span>
                         </div>
                     </div>
-
-                    <div class="qualification-date">
-                        <h4></h4>
-                    </div>
                 </div>
             </div>
-
         </section>
 
         <section class="projectsSection" id="projects">
             <h2>My Projects</h2>
-
             <div class="projects-grid">
-
                 <article class="project-card">
                     <img src="img/project1.png" alt="Project 1 Thumbnail" class="project-thumbnail">
                     <div class="project-info">
                         <h3>CurioQuotes</h3>
-                        <p>A simple yet stylish web app that displays random inspirational quotes. Get new random quotes from DummyJSON API.</p>
-                        <a href="https://github.com/sthaswarnim17/CurioQuotes" target="_blank" class="project-link">View Project →</a>
+                        <p>A simple yet stylish web app that displays random inspirational quotes. Get new random quotes
+                            from DummyJSON API.</p>
+                        <a href="https://github.com/sthaswarnim17/CurioQuotes" target="_blank" class="project-link">View
+                            Project →</a>
                     </div>
                 </article>
-                
+
                 <article class="project-card">
                     <img src="img/project2.png" alt="Project 2 Thumbnail" class="project-thumbnail">
                     <div class="project-info">
                         <h3>Portfolio Website</h3>
                         <p>My personal portfolio website showcasing my skills, projects, and experience.</p>
-                        <a href="https://github.com/sthaswarnim17/swarnim" target="_blank" class="project-link">View Project →</a>
+                        <a href="https://github.com/sthaswarnim17/swarnim" target="_blank" class="project-link">View
+                            Project →</a>
                     </div>
                 </article>
-                
+
                 <article class="project-card">
                     <img src="img/project3.png" alt="Project 3 Thumbnail" class="project-thumbnail">
                     <div class="project-info">
                         <h3>Festivals of Nepal</h3>
-                        <p>A culturally-rich video project exploring Nepal's vibrant festivals, created to celebrate our traditions with creativity and passion.</p>
-                        <a href="https://www.youtube.com/watch?v=qa2InEhNVDs" target="_blank" class="project-link">Preview →</a>
+                        <p>A culturally-rich video project exploring Nepal's vibrant festivals, created to celebrate our
+                            traditions with creativity and passion.</p>
+                        <a href="https://www.youtube.com/watch?v=qa2InEhNVDs" target="_blank"
+                            class="project-link">Preview →</a>
                     </div>
                 </article>
-
             </div>
         </section>
-
-
     </main>
+
+    <footer>
+        <div class="footer" id="contact">
+            <div class="footer-first">
+                <h3>Swarnim Shrestha</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+
+                <div class="footer-rights">
+                    &#169; 2025 Swarnim Shrestha. All rights reserved.
+                </div>
+            </div>
+
+            <div class="footer-second">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i>
+                        <a href="#home" class="href">Home</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-user"></i>
+                        <a href="#about" class="href">About</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-folder"></i>
+                        <a href="#projects" class="href">Projects</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-file-alt"></i>
+                        <a href="https://drive.google.com/file/d/1ayqYnIUp5X0zHIvnXtVaC4KpaFkKwc6A/view?usp=sharing" class="href">Resume</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-second">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@swarnimstha.com.np</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>+977 9804014731</span>
+                    </li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://github.com/sthaswarnim17" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sthaswarnim17/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/sthaswarnim17/" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/sthaswarnim17/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['Web Developer', 'Graphics Designer', 'Video Editor'],
-            typeSpeed: 50, backSpeed: 25,
+            typeSpeed: 50,
+            backSpeed: 25,
             loop: true,
             loopCount: Infinity,
         });
